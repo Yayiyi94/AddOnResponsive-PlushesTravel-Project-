@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+  color: rebeccapurple;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.theme-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: block;
+  margin: 0 auto;
+  background: #faf1e8;
+  color: #bf9264;
+  border: none;
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 14px;
+  transition: all 150ms ease-in-out;
+}
+
+.theme-button:hover {
+  cursor: pointer;
+  border: none;
+  background: #4f1c51;
+  color: #a55b4b;
+}
+
+.dark {
+  background: black;
+}
+
+.dark .theme-button {
+  background: #4f1c51;
+  color: #a55b4b;
+  border: none;
+}
+
+.dark .theme-button:hover {
+  background: #f0f1c5;
+  color: #bf9264;
+  border: none;
+}
