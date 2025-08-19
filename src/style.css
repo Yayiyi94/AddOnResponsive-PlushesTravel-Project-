@@ -230,9 +230,13 @@ main p {
   padding: 0 30px 30px;
 }
 
+.card-header img {
+  border-radius: 0;
+}
+
 .embed {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1/1.35;
 }
 footer {
   background-image: linear-gradient(
@@ -318,5 +322,13 @@ footer li {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
