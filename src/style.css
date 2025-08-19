@@ -279,8 +279,9 @@ section {
 }
 
 .image-ace {
-  width: 80%;
   display: block;
+  margin: 0 auto;
+  width: 80%;
   border-radius: 10px;
 }
 
@@ -335,5 +336,15 @@ footer li {
 
   .embed {
     aspect-ratio: 16/9;
+  }
+
+  .photo-group img {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .photo-group img:hover {
+    transition: all 150ms ease-in-out;
+    transform: scale(1.1);
   }
 }
